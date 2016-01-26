@@ -9,7 +9,7 @@ A minimal Arch container with the [amylum](https://github.com/amylum/repo) repo 
 
 ## Usage
 
-To build a new image, run `make`. This launches the docker build container and builds a new image.
+To build a new image, run `make -f MetaMakefil`. This launches the docker build container and builds a new image.
 
 To start a shell in the build environment for manual actions, run `make manual`.
 
