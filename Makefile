@@ -1,4 +1,4 @@
-.PHONY : submodule
+.PHONY : submodule overlay container manual
 
 submodule:
 	git submodule update --init
@@ -6,4 +6,9 @@ submodule:
 overlay: submodule
 	cp -vnR arch/* ./
 	cp arch/Makefile ./ContainerMakefile
-	REPO=dock0/static_arch make -f ContainerMakefile build push
+
+container: overlay
+	REPO=dock0/static_arch make -f ContainerMakefile
+
+manual: overlay
+	REPO=dock0/static_arch make -f ContainerMakefile manual
