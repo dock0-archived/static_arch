@@ -1,4 +1,6 @@
-.PHONY : submodule overlay container manual
+.PHONY : default submodule overlay container manual
+
+default: container
 
 submodule:
 	git submodule update --init
