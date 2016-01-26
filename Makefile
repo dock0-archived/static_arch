@@ -6,8 +6,8 @@ submodule:
 	git submodule update --init
 
 overlay: submodule
-	mv arch/Makefile arch/ContainerMakefile
-	cp -vR arch/* ./
+	cp -vR arch/{cert,meta,overlay,shim} ./
+	cp arch/Makefile arch/ContainerMakefile
 
 container: overlay
 	REPO=dock0/static_arch make -f ContainerMakefile
