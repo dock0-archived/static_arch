@@ -9,7 +9,7 @@ overlay: submodule
 	cp -vR arch/{Makefile,cert,meta,overlay,shim} ./
 
 container: overlay
-	REPO=dock0/static_arch make -f ContainerMakefile
+	make -C .
 
 manual: overlay
-	REPO=dock0/static_arch make -f ContainerMakefile manual
+	make -C . manual
