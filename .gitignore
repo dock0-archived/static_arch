@@ -1,2 +1,8 @@
 root.tar.bz2
 .github
+ContainerMakefile
+cert
+meta
+overlay
+shim/Makefile
+shim/main.go
