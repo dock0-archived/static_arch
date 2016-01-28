@@ -6,4 +6,5 @@ procps-ng-amylum
 sed-amylum
 gnupg-amylum
 bash-amylum
+coreutils-amylum
 pacman-mirrorlist
