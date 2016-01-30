@@ -9,5 +9,6 @@ bash-amylum
 xz-amylum
 coreutils-amylum
 pacman-mirrorlist
+archlinux-keyring
 filesystem
 ca-certificates
