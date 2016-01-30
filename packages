@@ -9,3 +9,4 @@ bash-amylum
 coreutils-amylum
 pacman-mirrorlist
 filesystem
+ca-certificates
