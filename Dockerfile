@@ -2,7 +2,7 @@ FROM scratch
 MAINTAINER akerl <me@lesaker.org>
 ENV DUCKTAPE_VERSION 0.3.2
 ADD shim/shim /.shim
-ADD cert /.cert
+ADD arch/cert /.cert
 ADD https://github.com/dock0/ducktape/releases/download/$DUCKTAPE_VERSION/ducktape /.ducktape
 RUN ["/.shim", ""]
 RUN ["/.ducktape", "https://github.com/dock0/static_arch/releases/download/0.0.6/root.tar.bz2"]
