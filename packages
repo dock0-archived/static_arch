@@ -1,4 +1,5 @@
 pacman-amylum
+pacman-mirrorlist-amylum
 gzip-amylum
 grep-amylum
 shadow-amylum
@@ -8,7 +9,6 @@ gnupg-amylum
 bash-amylum
 xz-amylum
 coreutils-amylum
-pacman-mirrorlist
 archlinux-keyring
 filesystem
 ca-certificates
