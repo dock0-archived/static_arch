@@ -6,6 +6,9 @@ procps-ng-amylum
 sed-amylum
 gnupg-amylum
 bash-amylum
+xz-amylum
 coreutils-amylum
 pacman-mirrorlist
+archlinux-keyring
 filesystem
+ca-certificates
