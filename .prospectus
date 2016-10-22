@@ -1,5 +1,5 @@
 item do
-  name 'arch::ducktape'
+  name 'static_arch::ducktape'
 
   expected do
     github_release
