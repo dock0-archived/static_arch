@@ -1,3 +1,0 @@
-[submodule "arch"]
-	path = arch
-	url = git://github.com/dock0/arch
