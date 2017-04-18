@@ -1,6 +1,6 @@
 FROM dock0/amylum_arch
 MAINTAINER akerl <me@lesaker.org>
-RUN yes | pacman -Syu --needed --noconfirm \
+RUN yes | pacman -Syu --needed \
     bash-amylum \
     ca-certificates-mozilla-amylum \
     coreutils-amylum \
