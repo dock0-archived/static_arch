@@ -24,12 +24,10 @@ RUN yes | pacman -S --needed \
     ca-certificates-amylum \
     coreutils-amylum \
     git-amylum \
-    grep-amylum \
     gzip-amylum \
     iproute2-amylum \
     iputils-amylum \
     procps-ng-amylum \
-    sed-amylum \
     shadow-amylum \
     tar-amylum \
     util-linux-amylum \
@@ -38,7 +36,5 @@ RUN yes | pacman -S --needed \
 RUN pacman -R --noconfirm \
     libldap \
     e2fsprogs \
-    systemd \
-    libusb \
     ca-certificates-cacert \
     ca-certificates-mozilla
