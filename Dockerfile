@@ -21,7 +21,6 @@ RUN cp /usr/bin/xz /usr/local/bin/ && cp /usr/lib/liblzma* /usr/local/lib && \
     ldconfig
 RUN yes | pacman -S --needed \
     bash-amylum \
-    ca-certificates-amylum \
     coreutils-amylum \
     git-amylum \
     gzip-amylum \
@@ -35,6 +34,4 @@ RUN yes | pacman -S --needed \
     zlib-amylum
 RUN pacman -R --noconfirm \
     libldap \
-    e2fsprogs \
-    ca-certificates-cacert \
-    ca-certificates-mozilla
+    e2fsprogs
