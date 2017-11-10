@@ -9,7 +9,7 @@ RUN yes | pacman -Syu --force --needed --nodeps \
     libarchive-amylum \
     libassuan-amylum \
     libgcrypt-amylum \
-    libgpg-error-amylum
+    libgpg-error-amylum \
     libtasn1-amylum \
     libunistring-amylum \
     musl-amylum \
