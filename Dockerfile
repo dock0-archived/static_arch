@@ -18,7 +18,7 @@ RUN yes | pacman -Syu --force --needed --nodeps \
     p11-kit-amylum \
     pacman-amylum \
     pacman-mirrorlist-amylum \
-    sqlite-amylum \
+    sqlite-amylum
 RUN mv /etc/pacman.conf.pacsave /etc/pacman.conf && \
     mv /etc/pacman.d/mirrorlist.pacsave /etc/pacman.d/mirrorlist
 RUN cp /usr/bin/xz /usr/local/bin/ && \
