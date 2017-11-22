@@ -15,6 +15,7 @@ RUN yes | pacman -Syu --force --needed --nodeps \
     musl-amylum \
     nettle-amylum \
     openssh-amylum \
+    openssl-amylum \
     p11-kit-amylum \
     pacman-amylum \
     pacman-mirrorlist-amylum \
