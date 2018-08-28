@@ -2,7 +2,7 @@ dock0/static_arch
 =======
 
 [![Automated Build](https://img.shields.io/docker/build/dock0/static_arch.svg)](https://hub.docker.com/r/dock0/static_arch/)
-[![Build Status](https://img.shields.io/circleci/project/dock0/static_arch/master.svg)](https://circleci.com/gh/dock0/static_arch)
+[![Build Status](https://img.shields.io/travis/com/dock0/static_arch.svg)](https://travis-ci.com/dock0/static_arch)
 [![MIT Licensed](http://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
 
 A minimal Arch container with the [amylum](https://github.com/amylum/repo) repo added, built statically with [musl](http://www.musl-libc.org/)
