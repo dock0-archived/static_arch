@@ -1,4 +1,4 @@
-FROM docker.pkg.github.com/dock0/amylum_arch/amylum_arch:20200214-78c7a01
+FROM docker.pkg.github.com/dock0/amylum_arch/amylum_arch:20200214-16d2ab8
 MAINTAINER akerl <me@lesaker.org>
 RUN yes | pacman -Syu --force --needed --nodeps \
     curl-amylum \
